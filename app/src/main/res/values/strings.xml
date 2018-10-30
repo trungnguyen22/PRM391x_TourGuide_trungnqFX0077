@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PRM391x_TourGuide_trungnqFX0077</string>
+    <string name="title_tool_bar">Tour Guide App</string>
+    <string name="flag">flag</string>
+    <string name="ha_noi_viet_nam">Hà Nội, Việt Nam</string>
+    <string name="hotel">Khách Sạn</string>
+    <string name="atm">ATM</string>
+    <string name="hospital">Bệnh Viện</string>
+    <string name="bus">Xe Bus</string>
+    <string name="image_back_drop">image_back_drop</string>
+    <string name="ho_chi_minh">Hồ Chí Minh, Việt Nam</string>
+    <string name="choose_place">Chọn Địa Điểm</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="item_service_icon">Item Service Icon</string>
+</resources>
