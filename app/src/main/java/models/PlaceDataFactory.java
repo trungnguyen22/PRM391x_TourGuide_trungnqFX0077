@@ -29,19 +29,19 @@ public class PlaceDataFactory {
     }
 
     public ServiceDto makeATMService() {
-        return new ServiceDto("ATM", R.drawable.ic_atm, R.color.steel_blue, makeATMItem(), ServiceDto.EService.ATM);
+        return new ServiceDto("ATM", R.drawable.ic_atm, "#4682B4", makeATMItem(), ServiceDto.EService.ATM);
     }
 
     public ServiceDto makeHotelService() {
-        return new ServiceDto("Khách Sạn", R.drawable.ic_hotel, R.color.cyan, makeHotelItem(), ServiceDto.EService.HOTEL);
+        return new ServiceDto("Khách Sạn", R.drawable.ic_hotel, "#00FFFF", makeHotelItem(), ServiceDto.EService.HOTEL);
     }
 
     public ServiceDto makeHospitalService() {
-        return new ServiceDto("Bệnh Viện", R.drawable.ic_hospital, R.color.dark_sea_green, makeHospitalItem(), ServiceDto.EService.HOSPITAL);
+        return new ServiceDto("Bệnh Viện", R.drawable.ic_hospital, "#8FBC8F", makeHospitalItem(), ServiceDto.EService.HOSPITAL);
     }
 
     public ServiceDto makeBusService() {
-        return new ServiceDto("Xe Bus", R.drawable.ic_bus, R.color.sienna, makeBusItem(), ServiceDto.EService.BUS);
+        return new ServiceDto("Xe Bus", R.drawable.ic_bus, "#A0522D", makeBusItem(), ServiceDto.EService.BUS);
     }
 
     public List<ItemDto> makeATMItem() {

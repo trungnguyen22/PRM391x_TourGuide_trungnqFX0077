@@ -83,7 +83,7 @@ public class DetailServiceFragment extends Fragment {
         mRecyclerView = mBaseView.findViewById(R.id.mRecyclerView);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
-        mItemServiceAdapter = new ItemServiceAdapter(getContext(), mServiceDto.getItemDtoList(), mServiceDto.getResIcon(), mServiceDto.getResColor());
+        mItemServiceAdapter = new ItemServiceAdapter(getContext(), mServiceDto.getItemDtoList(), mServiceDto.getResIcon(), mServiceDto.getCodeColor());
 
         mRecyclerView.setAdapter(mItemServiceAdapter);
     }

@@ -6,14 +6,14 @@ import java.util.List;
 public class ServiceDto implements Serializable {
     private String mServiceName;
     private int mResIcon;
-    private int mResColor;
+    private String mCodeColor;
     private List<ItemDto> mItemDtoList;
     private EService mEService;
 
-    public ServiceDto(String serviceName, int resIcon, int resColor, List<ItemDto> itemDtoList, EService eService) {
+    public ServiceDto(String serviceName, int resIcon, String codeColor, List<ItemDto> itemDtoList, EService eService) {
         this.mServiceName = serviceName;
         this.mResIcon = resIcon;
-        this.mResColor = resColor;
+        this.mCodeColor = codeColor;
         this.mItemDtoList = itemDtoList;
         this.mEService = eService;
     }
@@ -50,12 +50,12 @@ public class ServiceDto implements Serializable {
         mEService = EService;
     }
 
-    public int getResColor() {
-        return mResColor;
+    public String getCodeColor() {
+        return mCodeColor;
     }
 
-    public void setResColor(int resColor) {
-        mResColor = resColor;
+    public void setCodeColor(String codeColor) {
+        mCodeColor = codeColor;
     }
 
     public enum EService {

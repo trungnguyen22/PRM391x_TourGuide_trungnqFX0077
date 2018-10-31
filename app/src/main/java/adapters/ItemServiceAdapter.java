@@ -1,10 +1,10 @@
 package adapters;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,13 +23,13 @@ public class ItemServiceAdapter extends RecyclerView.Adapter<ItemServiceAdapter.
     private Context mContext;
     private List<ItemDto> mItemDtoList;
     private int mResIcon;
-    private int mResColor;
+    private String mCodeColor;
 
-    public ItemServiceAdapter(Context context, List<ItemDto> itemDtoList, int resIcon, int resColor) {
+    public ItemServiceAdapter(Context context, List<ItemDto> itemDtoList, int resIcon, String codeColor) {
         mContext = context;
         mItemDtoList = itemDtoList;
         mResIcon = resIcon;
-        mResColor = resColor;
+        mCodeColor = codeColor;
     }
 
     @NonNull
@@ -70,8 +70,7 @@ public class ItemServiceAdapter extends RecyclerView.Adapter<ItemServiceAdapter.
             mItemServiceImg.setImageResource(mResIcon);
             mItemName.setText(itemDto.getItemName());
             mItemAddress.setText(itemDto.getItemAddress());
-            mItemContentLN.setBackgroundColor(mResColor);
-            Log.d("Debug-Color-Code: ", String.valueOf(mResColor));
+            mItemContentLN.setBackgroundColor(Color.parseColor(mCodeColor));
         }
 
     }
