@@ -6,13 +6,9 @@ Vietnam Tour Guide App - helps people find ATM, hospital, or hotel easier.
 
 The project is made for education purpose and for learning Android Development. So if it is there something wrong, you can fork me and pull request. I will very appreciate it.
 
-## Contributing
+### Prerequisites
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+The project was built on Android Studio and the APK file can only run on Android 5.0 and above.
 
 ## Authors
 
